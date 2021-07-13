@@ -1,6 +1,9 @@
 *{
     font-family: 'EliceDigitalBaeum_Bold';
 }
+html{
+    cursor:url("../img/cursor.png"), auto;
+}
 body{
     margin: 0;
     background-color: lemonchiffon;
