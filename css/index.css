@@ -2,7 +2,8 @@
     font-family: 'EliceDigitalBaeum_Bold';
 }
 html{
-    cursor:url("../img/cursor.png"), auto;
+    cursor:url("../img/cursor.svg"), auto;
+    /* 아이콘 사용 정보 : [https://www.flaticon.com/kr/authors/freepik] */
 }
 body{
     margin: 0;
