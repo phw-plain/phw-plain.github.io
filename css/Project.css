@@ -1,0 +1,34 @@
+html,body{
+    width: 100%; 
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.list{
+    display: flex;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(132, 250, 77);
+    flex-direction:column;
+}
+.list-btn{
+    display: flex;
+    color: white;
+    border-style: none;
+    background-color: rgb(132, 250, 77);
+    cursor: pointer;
+    justify-content:flex-end;
+    font-size: 25px;
+}
+.list-btn:active{
+    color: rgb(0, 214, 0);
+}
+.list-main{
+    display: flex;
+    flex-direction:column;
+    padding-top: 30px;
+}
+li{
+    list-style: none;
+}
