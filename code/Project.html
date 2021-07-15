@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f4dacc2b8e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/Project.css"/>
     <title>🖥 Project</title>
 </head>
 <body>
-    <div class="list">
-        <button class="list-btn"><i class="fas fa-bars"></i></button>
+    <div class="nav">
+		<div class="nav-left">
+			<button class="list-btn" id="OpenBtn"><i class="fas fa-bars"></i></button>
+		</div>
+		<div class="nav-right">
+            <p>Project</p>
+		</div>
+	</div>
+    <div class="list" id="sidebar">
+        <button class="sidebar-btn" id="CloseBtn"><i class="fas fa-bars"></i></button>
         <div>
             <ul class="list-main">
-                <li>웹프로젝트</li>
-                <li>앱프로젝트</li>
-                <li>SW프로젝트</li>
+                <li><a href=" ">웹프로젝트</a></li>
+                <li><a href=" ">앱프로젝트</a></li>
+                <li><a href=" ">SW프로젝트</a></li>
             </ul>
         </div>
     </div>
+ 
+    <script>
+        $(document).ready(function(){
+            var target = $("#sidebar");
+ 
+            // 버튼을 클릭하면 사이드바 열림
+            $(document).on("click", "#OpenBtn", function (e){
+                target.show();
+                target.addClass('emphasized');
+            });
+ 
+            // 사이드바 외부를 클릭하면 사이드바 닫힘
+            $(document).on("click", "#CloseBtn", function (e){
+                target.hide();
+                target.removeClass('emphasized');
+                
+            });
+        });
+    </script>
 </body>
-</html> 
+</html>
