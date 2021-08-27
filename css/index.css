@@ -10,7 +10,7 @@ body{
 }
 .nav{
     width: 100%;
-    background-color: lemonchiffon;
+    background-color: rgb(228, 227, 227);
     margin-bottom: 5%;
 }
 .nav-logo{
@@ -24,7 +24,7 @@ body{
 .nav-right{
     display: flex;
     justify-content:space-around;
-    background-color: rgb(248, 239, 158);
+    background-color: rgb(194, 194, 194);
 }
 .main{
     display: flex;
@@ -36,7 +36,7 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 70%;
-    background-color: rgb(241, 217, 157);
+    background-color: rgb(228, 227, 227);
 }
 .Profile-text-inline{
     display: inline-block;
@@ -44,7 +44,7 @@ body{
 .board{
     width: 70%;
     margin-left: 5%;
-    background-color: lemonchiffon;
+    background-color: rgb(228, 227, 227);
 }
 #text{
     margin: 0;
