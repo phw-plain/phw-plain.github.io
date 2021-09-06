@@ -2,29 +2,29 @@
     font-family: 'EliceDigitalBaeum_Bold';
 }
 html{
-    cursor:url("../img/cursor.png"), auto;
+    cursor:url("../img/cursor2.png"), auto;
 }
 body{
     margin: 0;
+    background-color: black;
+    color: white;
     
 }
 .nav{
     width: 100%;
-    background-color: lemonchiffon;
+    height: 50px;
+    background-color: rgb(53, 53, 53);
     margin-bottom: 5%;
 }
-.nav-logo{
-    width: 70px;
-    height: 70px;
+.nav-items{
+    padding-top: 5px;
+    padding-right: 15px;
+    text-align: right;
 }
-.nav-left{
-    display: flex;
-    justify-content: center;
-}
-.nav-right{
-    display: flex;
-    justify-content:space-around;
-    background-color: rgb(248, 239, 158);
+.nav-item{
+    color: white;
+    font-size: 21px;
+    margin-left: 15px;
 }
 .main{
     display: flex;
@@ -44,7 +44,7 @@ body{
 .board{
     width: 70%;
     margin-left: 5%;
-    background-color: lemonchiffon;
+    background-color: rgb(53, 53, 53);
 }
 #text{
     margin: 0;
