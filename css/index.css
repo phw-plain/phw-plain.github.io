@@ -12,8 +12,12 @@ body{
 }
 .nav{
     width: 100%;
+<<<<<<< HEAD
     height: 50px;
     background-color: rgb(53, 53, 53);
+=======
+    background-color: rgb(228, 227, 227);
+>>>>>>> a2dca6f4cf5f6646687cac6debba50adae2ea79e
     margin-bottom: 5%;
 }
 .nav-items{
@@ -21,10 +25,21 @@ body{
     padding-right: 15px;
     text-align: right;
 }
+<<<<<<< HEAD
 .nav-item{
     color: white;
     font-size: 21px;
     margin-left: 15px;
+=======
+.nav-left{
+    display: flex;
+    justify-content: center;
+}
+.nav-right{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(194, 194, 194);
+>>>>>>> a2dca6f4cf5f6646687cac6debba50adae2ea79e
 }
 .main{
     display: flex;
@@ -36,7 +51,7 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 70%;
-    background-color: rgb(241, 217, 157);
+    background-color: rgb(228, 227, 227);
 }
 .Profile-text-inline{
     display: inline-block;
@@ -44,7 +59,11 @@ body{
 .board{
     width: 70%;
     margin-left: 5%;
+<<<<<<< HEAD
     background-color: rgb(53, 53, 53);
+=======
+    background-color: rgb(228, 227, 227);
+>>>>>>> a2dca6f4cf5f6646687cac6debba50adae2ea79e
 }
 #text{
     margin: 0;
