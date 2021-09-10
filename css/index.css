@@ -6,8 +6,6 @@ html{
 }
 body{
     margin: 0;
-    background-color: black;
-    color: white;
     
 }
 .nav{
@@ -45,6 +43,7 @@ body{
     width: 70%;
     margin-left: 5%;
     background-color: rgb(53, 53, 53);
+    color: white;
 }
 #text{
     margin: 0;
